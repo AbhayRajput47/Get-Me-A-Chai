@@ -10,7 +10,8 @@ import Payment from "@/models/Payment";
 import bcrypt from "bcryptjs"
 
 export const authOptions = {
-   debug: true,
+  secret: process.env.NEXTAUTH_SECRET,
+  //  debug: true,
   providers: [
     GithubProvider({
       clientId: process.env.GITHUB_ID,
