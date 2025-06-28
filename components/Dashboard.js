@@ -7,6 +7,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Bounce } from "react-toastify";
 import bcrypt from "bcryptjs"; // Import bcrypt for hashing passwords
+// import Image from "next/image";
 
 const Dashboard = () => {
   const { data: session, status } = useSession();
@@ -30,7 +31,7 @@ const Dashboard = () => {
         setForm(JSON.parse(data));
       });
     }
-  }, [status, session]);
+  }, [status, session,router]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;

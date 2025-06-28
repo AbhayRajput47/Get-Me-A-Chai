@@ -22,7 +22,7 @@ const Contact = () => {
       <div className="relative z-10 max-w-3xl mx-auto text-center">
         <h2 className="text-4xl font-extrabold mb-4">Contact Us</h2>
         <p className="text-gray-300 text-lg mb-10">
-          We'd love to hear from you! Whether it's feedback, questions, or support – feel free to reach out.
+          We&apos;d love to hear from you! Whether it&apos;s feedback, questions, or support – feel free to reach out.
         </p>
 
         <div className="text-left space-y-6 text-gray-300">

@@ -26,7 +26,7 @@ const CancellationRefundPolicies = () => {
           Cancellation & Refund Policies
         </h1>
         <p className="text-lg text-gray-400 italic mb-8">
-          "Clear terms, seamless experience."
+          &quot;Clear terms, seamless experience.&quot;
         </p>
         <p className="text-sm text-gray-300 mb-6">
           <strong>Effective Date:</strong> {date}

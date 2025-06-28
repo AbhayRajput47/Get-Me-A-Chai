@@ -30,7 +30,7 @@ const PaymentPage = ({username}) => {
 
 useEffect(() => {
         getData()
-    }, [])
+    }, [username])
 
 useEffect(() => {
   if(searchParams.get("paymentdone")=="true"){
@@ -48,7 +48,7 @@ transition: Bounce,
   }
   router.push(`/${username}`)
 
-}, [])
+}, [router])
 
 
  const handleChange = (e) => {

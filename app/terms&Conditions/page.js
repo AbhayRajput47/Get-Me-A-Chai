@@ -14,7 +14,7 @@ const TermsAndConditions = () => {
           </h2>
 
           <p className="p-4 text-gray-200 text-md font-sans text-center">
-            These terms and conditions ("Terms") govern your use of the Get Me A Chai platform. By accessing or using our platform, you agree to comply with and be bound by these Terms.
+            These terms and conditions (&quot;Terms&quot;) govern your use of the Get Me A Chai platform. By accessing or using our platform, you agree to comply with and be bound by these Terms.
           </p>
 
           <div className="p-4 text-gray-200 text-md font-sans max-w-5xl mx-auto">

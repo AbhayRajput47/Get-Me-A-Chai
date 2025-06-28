@@ -12,7 +12,7 @@ const Login = () => {
   useEffect(() => {
     if (session) router.push("/dashboard");
     document.title = "Login - Get Me A Chai";
-  }, [session]);
+  }, [session, router]);
 
   // const handleSubmit = async (e) => {
   //   e.preventDefault();

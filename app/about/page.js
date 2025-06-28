@@ -13,7 +13,7 @@ const About = () => {
             About Us
           </h1>
           <p className="text-lg font-semibold text-blue-400 mb-6">
-            "Fueling Creativity, One Cup at a Time"
+            &quot;Fueling Creativity, One Cup at a Time&quot;
           </p>
           <p className="text-gray-300 text-md leading-relaxed mb-6">
             At <span className="text-white font-semibold">Get Me A Chai</span>, we aim to empower creators—developers, artists,
@@ -23,7 +23,7 @@ const About = () => {
             creativity.
           </p>
           <p className="text-gray-300 text-md leading-relaxed mb-6">
-            Whether you're crafting a digital experience, producing compelling
+            Whether you&apos;re crafting a digital experience, producing compelling
             content, or sharing a vision, our platform is your home for funding
             and engagement. We believe in the ripple effect of community-driven
             support—small gestures lead to meaningful impact.

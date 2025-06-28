@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Link from 'next/link'
 
 export default function Home() {
@@ -54,7 +54,7 @@ export default function Home() {
 
   <div className="px-1 md:px-5 mt-20">
     <p className="p-4 text-gray-200 text-md text-center font-sans">
-      <strong>Get Me A Chai</strong> is more than just a platform—it's a movement that empowers developers, creators, and influencers to fuel their ideas through community-driven support. Whether you’re building, designing, writing, or inspiring, this is your space to grow with the help of those who believe in your vision.
+      <strong>Get Me A Chai</strong> is more than just a platform—it&apos;s a movement that empowers developers, creators, and influencers to fuel their ideas through community-driven support. Whether you&apos;re building, designing, writing, or inspiring, this is your space to grow with the help of those who believe in your vision.
     </p>
     
     <p className="p-4 text-gray-200 text-md text-center font-sans">
@@ -62,7 +62,7 @@ export default function Home() {
     </p>
 
     <p className="p-4 text-gray-200 text-md text-center font-sans">
-      At the heart of everything we do is <strong>community</strong>. We believe that creativity flourishes when supported, and with every contribution, you're not just funding a project—you're shaping someone's dream. Together, we’re building a culture of creativity, passion, and possibility.
+      At the heart of everything we do is <strong>community</strong>. We believe that creativity flourishes when supported, and with every contribution, you&apos;re not just funding a project—you&apos;re shaping someone&apos;s dream. Together, we&apos;re building a culture of creativity, passion, and possibility.
     </p>
   </div>
 </div>
